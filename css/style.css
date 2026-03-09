@@ -1,0 +1,36 @@
+body{
+background:#f5f7fb;
+font-family: 'Segoe UI', sans-serif;
+}
+
+/* TITULO */
+h1{
+color:#2c3e50;
+}
+
+/* CARDS */
+.canvas-card{
+border:none;
+border-radius:15px;
+transition:all .3s ease;
+}
+
+.canvas-card:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 30px rgba(0,0,0,.15);
+}
+
+/* CANVAS */
+.canvas-box{
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.15);
+width:100%;
+max-width:300px;
+}
+
+/* FOOTER */
+
+.footer{
+background:#212529;
+color:white;
+}
